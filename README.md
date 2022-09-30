@@ -6,7 +6,7 @@ The project was initially made to practice CRUD on Node JS and how it works.
 
 > Took quite awhile lol
 
-### Commands
+## Commands
 
 Open a terminal and type in `npm install` to download all what was added as a dependency
 
