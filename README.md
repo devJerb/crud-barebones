@@ -48,18 +48,15 @@ Or have a specific ID targeted
 | param | type |
 |-------|------|
 | id    | int  |
-| first | str  |
 
 3. `UPDATE hostname:port/students/:studentId`
 
 | param | type |
 |-------|------|
 | id    | int  |
-| first | str  |
 
 4. `DELETE hostname:port/students/:studentId`
 
 | param | type |
 |-------|------|
 | id    | int  |
-| first | str  |
