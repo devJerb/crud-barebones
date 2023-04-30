@@ -1,13 +1,65 @@
-# node-crud-app
+# CRUD Barebones
 
-A CRUD application that is written in Node JS with the use of Express and Mongoose
+This is a task completion of Application and Systems Integration delving into the life cycle of server and client communication by creating an API.
 
-The project was initially made to practice CRUD on Node JS and how it works.
+An example of student log creation with their demographics being stored into an NRDBMS.
 
-> Took quite awhile lol
+The purpose of this task shows the simple architecture involved in writing an API
 
-## Commands
+1. `app.js` provides the instance of the server ran on a port (currently on `5000`); also contains the middleware packages for every request that happens there are functions being executed asynchronously.
 
-Open a terminal and type in `npm install` to download all what was added as a dependency
+2. `api.js` contains all the CRUD methods to communicate with client-to-server then stored into the database with:
 
-When done installing, put in `npm run start` in order for your `localhost:5000/students` to run (currently set on 5000 and the middleware dictates the route to be `/students`).
+3. `Student.js` model as a Schema to be created into the database.
+
+## Installation
+
+Prior to running a localhost server, don't forget to `cd crud-barebones`
+
+To install the necessary dependencies found on your `package.json` file
+
+For Windows/Linux users
+
+`npm install`
+
+For yarn users
+
+`yarn install`
+
+## API Reference
+With the usage of [Postman](https://www.postman.com/) for testing the API, these are the methods that can be done
+
+1. `POST hostname:port/students/`
+
+| param   | type | desc       |
+|---------|------|------------|
+| id      | int  | student ID |
+| first   | str  | first name |
+| surname | str  | last name  |
+
+2. You can specifically get all by
+
+`GET hostname:port/students/`
+
+Or have a specific ID targeted
+
+`GET hostname:port/students/:studentId`
+
+| param | type |
+|-------|------|
+| id    | int  |
+| first | str  |
+
+3. `UPDATE hostname:port/students/:studentId`
+
+| param | type |
+|-------|------|
+| id    | int  |
+| first | str  |
+
+4. `DELETE hostname:port/students/:studentId`
+
+| param | type |
+|-------|------|
+| id    | int  |
+| first | str  |
