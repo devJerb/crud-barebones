@@ -14,9 +14,7 @@ The purpose of this task shows the simple architecture involved in writing an AP
 
 ## Installation
 
-Prior to running a localhost server, don't forget to `cd crud-barebones`
-
-To install the necessary dependencies found on your `package.json` file
+Prior to running a localhost server, don't forget to `cd crud-barebones` to install the necessary dependencies found on your `package.json` file
 
 For Windows/Linux users
 
