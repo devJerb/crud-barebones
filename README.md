@@ -8,7 +8,7 @@ The purpose of this task shows the simple architecture involved in writing an AP
 
 1. `app.js` provides the instance of the server ran on a port (currently on `https://localhost:5000`); also contains the middleware packages for every request that happens there are functions being executed asynchronously.
 
-2. `api.js` contains all the CRUD methods to communicate with client-to-server then stored into the database with:
+2. `api.js` contains all the CRUD methods to communicate with client-to-server then stored into the database
 
 3. `Student.js` model as a Schema to be created into the database.
 
