@@ -29,7 +29,7 @@ For yarn users
 ## API Reference
 With the usage of [Postman](https://www.postman.com/) for testing the API, these are the methods that can be done
 
-1. `POST hostname:port/students/`
+`POST hostname:port/students/`
 
 | param   | type | desc       |
 |---------|------|------------|
@@ -37,7 +37,7 @@ With the usage of [Postman](https://www.postman.com/) for testing the API, these
 | first   | str  | first name |
 | surname | str  | last name  |
 
-2. You can specifically get all by
+You can specifically get all by
 
 `GET hostname:port/students/`
 
@@ -49,13 +49,13 @@ Or have a specific ID targeted
 |-------|------|
 | id    | int  |
 
-3. `UPDATE hostname:port/students/:studentId`
+`UPDATE hostname:port/students/:studentId`
 
 | param | type |
 |-------|------|
 | id    | int  |
 
-4. `DELETE hostname:port/students/:studentId`
+`DELETE hostname:port/students/:studentId`
 
 | param | type |
 |-------|------|
